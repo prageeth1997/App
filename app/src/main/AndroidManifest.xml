@@ -12,13 +12,8 @@
 
         <activity android:name=".gtravelItemList" />
         <activity android:name=".gtravelItemDescription" />
-        <activity android:name=".gAddingItems">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        <activity android:name=".gAddingItems"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
 
 
         <activity android:name=".cDetails_Update"/>
@@ -29,7 +24,13 @@
         <activity android:name=".viewRefund" />
         <activity android:name=".refundUpdate" />
         <activity android:name=".refund" />
-        <activity android:name=".myorders"/>
+        <activity android:name=".myorders">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
 
 
 

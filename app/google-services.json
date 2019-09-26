@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "752299218947",
+    "firebase_url": "https://mobileshop-e299c.firebaseio.com",
+    "project_id": "mobileshop-e299c",
+    "storage_bucket": "mobileshop-e299c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:752299218947:android:145f69c71027799820d636",
+        "android_client_info": {
+          "package_name": "com.example.mobileshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "752299218947-bi3ttrlqua2j8skv70mr0utql6da5td0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mobileshop",
+            "certificate_hash": "8585465089d21abcb95ffb2b39ead131f6b411f3"
+          }
+        },
+        {
+          "client_id": "752299218947-60r8haka833clonjeimefpovn56e9qrg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCepcj15E5SiMbS4zFGyiAFkoHqtCOTfWQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "752299218947-60r8haka833clonjeimefpovn56e9qrg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

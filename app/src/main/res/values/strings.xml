@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">MobileShop</string>
+
+    <string name="search">Search</string>
+    <string name="itemName">Mobile Phone Cover</string>
+    <string name="itemPrice">Item Price</string>
+    <string name="itemPrice2">Rs 320.00</string>
+    <string name="itemOrderedDate">Order Date</string>
+    <string name="itemOrderedDate2">21/08/2019</string>
+    <string name="confirmOrderReceived">Confirm Order Received</string>
+    <string name="refundRequest">Request Refund</string>
+
+    <string name="updateButton">update</string>
+    <string name="submitButton">SUBMIT</string>
+    <string name="deleteButton">Delete</string>
+
+    <string name="itemID">itemID</string>
+    <string name="reason">Reason</string>
+    <string name="reasonHint">Enter the Reason</string>
+    <string name="description">Description</string>
+    <string name="descriptionHint">Enter the Description</string>
+    <string name="type">Type</string>
+    <string name="radio1">Full Refund</string>
+    <string name="radio2">Partial Refund</string>
+    <string name="amountHint">Enter the Amount</string>
+    <string name="maxAmount">Maximum amount is : Rs52.50</string>
+
+    <string name="mobileNumber">Mobile Number</string>
+    <string name="mobileNumberHint">Enter a Mobile Number</string>
+    <string name="Note">Please enter a working mobile number.Admin will contact you throught this number</string>
+
+
+    <string name="refundReason">Item Damaged</string>
+    <string name="refundDescription">When the package receive it was damaged</string>
+    <string name="statusH">Refund Status</string>
+    <string name="statusN">Waiting for refund</string>
+    <string name="adminNote">Admin Note</string>
+    <string name="adminNote2">None</string>
+
+
+    <string name="title_activity_view_refund_details">viewRefundDetails</string>
+
+</resources>

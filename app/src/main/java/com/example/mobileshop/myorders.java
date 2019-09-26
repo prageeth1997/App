@@ -20,7 +20,7 @@ public class myorders extends AppCompatActivity {
         startActivity(intent2);
     }
     public void refundUpdate(View view) {
-        Intent intent2 = new Intent(myorders.this , viewRefund.class);
+        Intent intent2 = new Intent(myorders.this , cDetail_Form.class);
         startActivity(intent2);
 
     }

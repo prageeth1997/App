@@ -8,12 +8,57 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:752299218947:android:e617d0dca94c8e7c20d636",
+        "android_client_info": {
+          "package_name": "com.example.madpaymentfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "752299218947-9dos7mfi9kd82l2oi64ulbr0hjulubp0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.madpaymentfinal",
+            "certificate_hash": "086c31b8323c48b4d67cdd965d52276dd2f7acc2"
+          }
+        },
+        {
+          "client_id": "752299218947-60r8haka833clonjeimefpovn56e9qrg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCepcj15E5SiMbS4zFGyiAFkoHqtCOTfWQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "752299218947-60r8haka833clonjeimefpovn56e9qrg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:752299218947:android:145f69c71027799820d636",
         "android_client_info": {
           "package_name": "com.example.mobileshop"
         }
       },
       "oauth_client": [
+        {
+          "client_id": "752299218947-mprg71lvk2dv4bpite8rocu9rlhc35b1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mobileshop",
+            "certificate_hash": "086c31b8323c48b4d67cdd965d52276dd2f7acc2"
+          }
+        },
         {
           "client_id": "752299218947-bi3ttrlqua2j8skv70mr0utql6da5td0.apps.googleusercontent.com",
           "client_type": 1,

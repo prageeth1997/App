@@ -9,11 +9,9 @@
     <string name="itemOrderedDate2">21/08/2019</string>
     <string name="confirmOrderReceived">Confirm Order Received</string>
     <string name="refundRequest">Request Refund</string>
-
     <string name="updateButton">update</string>
     <string name="submitButton">SUBMIT</string>
     <string name="deleteButton">Delete</string>
-
     <string name="itemID">itemID</string>
     <string name="reason">Reason</string>
     <string name="reasonHint">Enter the Reason</string>
@@ -24,20 +22,29 @@
     <string name="radio2">Partial Refund</string>
     <string name="amountHint">Enter the Amount</string>
     <string name="maxAmount">Maximum amount is : Rs52.50</string>
-
     <string name="mobileNumber">Mobile Number</string>
     <string name="mobileNumberHint">Enter a Mobile Number</string>
     <string name="Note">Please enter a working mobile number.Admin will contact you throught this number</string>
-
-
     <string name="refundReason">Item Damaged</string>
     <string name="refundDescription">When the package receive it was damaged</string>
     <string name="statusH">Refund Status</string>
     <string name="statusN">Waiting for refund</string>
     <string name="adminNote">Admin Note</string>
     <string name="adminNote2">None</string>
-
-
     <string name="title_activity_view_refund_details">viewRefundDetails</string>
 
+
+
+    <string name="cname">Name</string>
+    <string name="cadline1">Address Line 1</string>
+    <string name="cadline2">Address Line 2</string>
+    <string name="cpcode">Postale Code</string>
+    <string name="cNIC">NIC</string>
+    <string name="ccno">Contact Number</string>
+    <string name="cemail">Email</string>
+    <string name="comsg">Optional Message</string>
+    <string name="btnSubmit">Submit</string>
+    <string name="btnReset">Reset</string>
+    <string name="btnUpdate">Update</string>
+    <string name="btnDelete">Delete</string>
 </resources>

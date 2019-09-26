@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.onlinepayment.cDetail_Form">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="15dp"
+        android:orientation="vertical"
+        android:padding="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/name"
+            />
+
+        <EditText
+            android:id="@+id/txtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/cname"
+            android:inputType="textPersonName"
+            android:textSize="20sp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_marginTop="20dp"
+            android:textColorHint="@color/colorAccent"
+
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/caddress"
+            />
+
+        <EditText
+            android:id="@+id/txtAddL1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/cadline1"
+            android:inputType="textPostalAddress"
+            android:textSize="20sp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_marginTop="10dp"
+            android:textColorHint="@color/colorAccent"
+
+            />
+
+        <EditText
+            android:id="@+id/txtAddL2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/cadline2"
+            android:inputType="textPostalAddress"
+            android:textSize="20sp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_marginTop="20dp"
+            android:textColorHint="@color/colorAccent"
+
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cpostalcode"
+            />
+
+        <EditText
+            android:id="@+id/txtPostal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/cpcode"
+            android:inputType="number"
+            android:textSize="20sp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_marginTop="20dp"
+            android:textColorHint="@color/colorAccent"
+
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ccard"
+            />
+
+        <EditText
+            android:id="@+id/txtNIC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/cNIC"
+            android:inputType="number"
+            android:textSize="20sp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_marginTop="20dp"
+            android:textColorHint="@color/colorAccent"
+
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cnumberpad"
+            />
+
+        <EditText
+            android:id="@+id/txtMobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/ccno"
+            android:inputType="phone"
+            android:textSize="20sp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_marginTop="20dp"
+            android:textColorHint="@color/colorAccent"
+
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cgmail"
+            />
+
+        <EditText
+            android:id="@+id/txtMail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/cemail"
+            android:inputType="textEmailAddress"
+            android:textSize="20sp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_marginTop="20dp"
+            android:textColorHint="@color/colorAccent"
+
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/coptionalmsg"
+            />
+
+        <EditText
+            android:id="@+id/txtOpt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/comsg"
+            android:inputType="textMultiLine"
+            android:textSize="20sp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_marginTop="30dp"
+            android:textColorHint="@color/colorAccent"
+
+
+            />
+
+        <Button
+            android:id="@+id/btnsubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/cbutton_rounded"
+            android:text="@string/btnSubmit"
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/btnreset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/cbutton_rounded_profd"
+            android:onClick="clearinfo"
+            android:text="@string/btnReset"
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+</ScrollView>

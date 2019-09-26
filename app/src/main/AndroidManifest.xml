@@ -10,6 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
+        <activity android:name=".gtravelItemList" />
+        <activity android:name=".gtravelItemDescription" />
+        <activity android:name=".gAddingItems">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
         <activity android:name=".cDetails_Update"/>
         <activity android:name=".cUserProf" />
         <activity android:name=".cCard_Payment" />
@@ -18,13 +29,8 @@
         <activity android:name=".viewRefund" />
         <activity android:name=".refundUpdate" />
         <activity android:name=".refund" />
-        <activity android:name=".myorders">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        <activity android:name=".myorders"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
 
 
     </application>

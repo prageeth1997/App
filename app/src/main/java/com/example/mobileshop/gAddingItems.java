@@ -26,7 +26,7 @@ public class gAddingItems extends AppCompatActivity {
 
     gAddItems addItems = new gAddItems();
     FirebaseDatabase database = FirebaseDatabase.getInstance();
-    final DatabaseReference table_Item = database.getReference("addItems");
+    final DatabaseReference table_Item = database.getReference("addItems"); //additems - object name
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

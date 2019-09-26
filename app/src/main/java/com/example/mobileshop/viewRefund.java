@@ -78,6 +78,22 @@ public class viewRefund extends AppCompatActivity {
 
             }
         });
+
+    /*  DatabaseReference count = FirebaseDatabase.getInstance().getReference().child("RefundDB");
+        count.addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                long count= dataSnapshot.getChildrenCount();
+                String x = String.valueOf(count);
+                adminNote.setText(x);
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+
+            }
+        });*/
+
         btnDelete.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

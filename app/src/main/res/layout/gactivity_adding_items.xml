@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".gAddingItems">
+
+    <Button
+        android:id="@+id/ItemsAll_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="175dp"
+        android:layout_marginTop="17dp"
+        android:layout_toEndOf="@+id/Heading_label"
+        android:background="@drawable/grounded_button"
+        android:backgroundTint="#FFBF40"
+        android:text="@string/travelaIItem" />
+
+    <TextView
+        android:id="@+id/Heading_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/gnunito_bold"
+        android:text="Add Items"
+        android:textColor="#555555"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/ItemsSearch_field"
+        android:layout_width="313dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Heading_label"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="20dp"
+        android:layout_toStartOf="@+id/TravelItemsSearch_btn"
+        android:background="@drawable/gsearch_layout"
+        android:ems="10"
+        android:fontFamily="@font/gnunito_semibold"
+        android:hint="@string/searchhere"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp"
+        android:textColor="#999999"
+        android:textSize="16sp"
+        tools:ignore="UnknownId" />
+
+    <ImageButton
+        android:id="@+id/ItemsSearch_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ItemsSearch_field"
+        android:layout_alignBottom="@+id/ItemsSearch_field"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="0dp"
+        android:background="@android:color/background_light"
+        app:srcCompat="@mipmap/search_button" />
+
+    <ScrollView
+        android:layout_marginTop="120dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/UserTravelLabelItemName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="31dp"
+                android:layout_marginTop="50dp"
+                android:text="@string/travelitemsitemName"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/userTravelLabelItemName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="31dp"
+                android:layout_marginTop="125dp"
+                android:text="@string/category"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/userTravelLabelItemName2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/userTravelLabelItemName"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="38dp"
+                android:layout_marginTop="54dp"
+                android:text="@string/quantity"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/EditTextItemName"
+                android:layout_width="248dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="37dp"
+                android:layout_marginTop="38dp"
+                android:layout_toEndOf="@+id/UserTravelLabelItemName"
+                android:ems="10"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/EditTextCategory"
+                android:layout_width="248dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/EditTextItemName"
+                android:layout_marginStart="38dp"
+                android:layout_marginTop="30dp"
+                android:layout_toEndOf="@+id/UserTravelLabelItemName"
+                android:ems="10"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/EditTextItemQuantity"
+                android:layout_width="248dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/EditTextCategory"
+                android:layout_marginStart="37dp"
+                android:layout_marginTop="30dp"
+                android:layout_toEndOf="@+id/UserTravelLabelItemName"
+                android:ems="10"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/UserTravelLabelContactNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/UserTravelLabelItemDescription"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="116dp"
+                android:text="@string/travelItemsTelNo"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/EditTextContactNo"
+                android:layout_width="248dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/EditTextItemPrice"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="173dp"
+                android:layout_toEndOf="@+id/UserTravelLabelContactNo"
+                android:ems="10"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/EditTextItemPrice"
+                android:layout_width="248dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/EditTextItemNo"
+                android:layout_marginStart="56dp"
+                android:layout_marginTop="30dp"
+                android:layout_toEndOf="@+id/UserTravelLabelItemNo"
+                android:ems="10"
+                android:inputType="phone" />
+
+            <TextView
+                android:id="@+id/UserTravelLabelItemPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/UserTravelLabelItemNo"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="27dp"
+                android:layout_marginTop="50dp"
+                android:text="@string/travelitemsitemPrice"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/EditTextItemDescription"
+                android:layout_width="248dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/EditTextItemPrice"
+                android:layout_marginStart="34dp"
+                android:layout_marginTop="30dp"
+                android:layout_toEndOf="@+id/UserTravelLabelItemDescription"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine" />
+
+            <TextView
+                android:id="@+id/UserTravelLabelItemNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/userTravelLabelItemName2"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="34dp"
+                android:layout_marginTop="51dp"
+                android:text="@string/travelitemsitemNo"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/EditTextItemNo"
+                android:layout_width="248dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/EditTextItemQuantity"
+                android:layout_marginStart="56dp"
+                android:layout_marginTop="30dp"
+                android:layout_toEndOf="@+id/UserTravelLabelItemNo"
+                android:ems="10"
+                android:inputType="phone" />
+
+
+            <TextView
+                android:id="@+id/UserTravelLabelItemDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/UserTravelLabelItemPrice"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="49dp"
+                android:text="@string/itemDescription"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/InsertButton"
+                android:layout_width="70dp"
+                android:textColor="@color/white"
+                android:layout_height="33dp"
+                android:layout_alignTop="@+id/EditTextContactNo"
+                android:layout_marginStart="49dp"
+                android:layout_marginTop="83dp"
+                android:layout_marginBottom="20dp"
+                android:layout_toEndOf="@+id/DeleteButton"
+                android:background="@drawable/grounded_button"
+                android:text="@string/budgetAdd" />
+
+            <Button
+                android:id="@+id/UpdateButton"
+                android:layout_width="70dp"
+                android:layout_height="33dp"
+                android:layout_below="@+id/EditTextContactNo"
+                android:layout_marginStart="42dp"
+                android:layout_marginTop="44dp"
+                android:layout_marginBottom="20dp"
+                android:textColor="@color/white"
+
+                android:background="@drawable/grounded_button"
+                android:text="@string/budgetUpdate" />
+
+            <Button
+                android:id="@+id/DeleteButton"
+                android:layout_width="70dp"
+                android:layout_height="33dp"
+                android:layout_below="@+id/EditTextContactNo"
+                android:layout_marginStart="42dp"
+                android:layout_marginTop="41dp"
+                android:layout_marginBottom="20dp"
+                android:textColor="@color/white"
+                android:layout_toEndOf="@+id/UpdateButton"
+                android:background="@drawable/grounded_button"
+                android:text="@string/budgetDelete" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

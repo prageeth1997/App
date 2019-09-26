@@ -10,6 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
+        <activity android:name=".cDetails_Update"/>
+        <activity android:name=".cUserProf" />
+        <activity android:name=".cCard_Payment" />
+        <activity android:name=".cDetail_Form"/>
+
         <activity android:name=".viewRefund" />
         <activity android:name=".refundUpdate" />
         <activity android:name=".refund" />
